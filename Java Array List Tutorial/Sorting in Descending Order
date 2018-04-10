@@ -1,0 +1,32 @@
+
+package sortingdescending;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+ /* @author RoHiT */
+
+public class SortingDescending {
+
+   
+    public static void main(String[] args) {
+        ArrayList<String>descending=new ArrayList<>();
+        
+        descending.add(0, "India");
+        descending.add(1, "China");
+        descending.add(2, "America");
+        descending.add(3, "Russia");
+        descending.add(4, "Pakistan");
+        
+       
+        
+        System.out.println("Countries are:"+descending);
+         // without sorting it prints as it is
+        Collections.sort(descending, Collections.reverseOrder());
+        
+        System.out.println("Countries are:"+descending);
+        // after sorting
+        
+    }
+    
+}

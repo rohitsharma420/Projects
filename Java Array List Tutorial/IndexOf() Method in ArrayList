@@ -1,0 +1,31 @@
+
+package indexofmethod;
+
+import java.util.ArrayList;
+
+
+ /* @author RoHiT */
+ 
+public class IndexOfMethod {
+
+  
+    public static void main(String[] args) {
+        
+        ArrayList<String> obj=new ArrayList<>();
+        
+        obj.add("rohit");
+        obj.add("rohit1");
+        obj.add("rohit2");
+        obj.add("rohit3");
+        obj.add("rohit4");
+        obj.add("rohit5");
+        
+        System.out.println("Index of rohit"+obj.indexOf("rohit"));
+        System.out.println("Index of rohit2"+obj.indexOf("rohit2"));
+        System.out.println("Index of rohit4"+obj.indexOf("rohit4"));
+        System.out.println("Index of rohit111"+obj.indexOf("rohit111"));
+        
+        // index of rohit111 return -1, because it is not present in the list
+    }
+    
+}

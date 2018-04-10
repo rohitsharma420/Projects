@@ -1,0 +1,30 @@
+
+package isemptymethod;
+
+import java.util.ArrayList;
+
+
+ /* @author RoHiT */
+
+public class IsEmptyMethod {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       ArrayList<Integer> obj=new ArrayList<>();
+       
+       // Chech whether arraylist is empty or not
+        System.out.println("Is ArrayList Empty:"+obj.isEmpty());
+        
+        // Now add some elements and check this again
+        
+        obj.add(1);
+        obj.add(2);
+        obj.add(3);
+        
+        System.out.println("Is ArrayList Empty:"+obj.isEmpty());
+       
+    }
+    
+}

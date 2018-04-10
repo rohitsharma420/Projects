@@ -1,0 +1,29 @@
+
+package ensurecapacitymethod;
+
+import java.util.ArrayList;
+
+
+/* @author RoHiT */
+ 
+public class EnsureCapacityMethod {
+
+   
+    public static void main(String[] args) {
+       ArrayList<String>obj=new ArrayList<>(4);
+       
+       obj.add("AA");
+       obj.add("BB");
+       obj.add("CC");
+       obj.add("DD");
+       
+       obj.ensureCapacity(2);
+       
+       obj.add("EE");
+       obj.add("FF");
+        for (String temp: obj){
+            System.out.println(temp); 
+        }
+    }
+    
+}

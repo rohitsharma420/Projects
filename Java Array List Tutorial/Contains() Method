@@ -1,0 +1,38 @@
+
+package containsmethod;
+
+import java.util.ArrayList;
+
+
+ /* @author RoHiT */
+ 
+public class ContainsMethod {
+
+    
+    public static void main(String[] args) {
+        ArrayList<String> contains=new ArrayList<>();
+        
+        contains.add("Rohit");
+        contains.add("Ravish");
+        contains.add("Ajay");
+        contains.add("Deep");
+        
+        System.out.println("List Contains 'Rohit':"+contains.contains("Rohit"));
+        System.out.println("List Contains 'Ajay Sharma':"+contains.contains("Ajay Sharma"));
+        
+        // This is only for String Type of Data
+        
+        ArrayList<Integer>obj=new ArrayList<>();
+        
+        obj.add(001);
+        obj.add(002);
+        obj.add(003);
+        
+        System.out.println("List Contains '007':"+obj.contains(007));
+        System.out.println("List Contains '003':"+obj.contains(003));
+        
+        // This is for Integer Type of Data
+        
+    }
+    
+}

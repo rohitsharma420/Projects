@@ -1,0 +1,32 @@
+
+package sortingarraylist;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+ /* @author RoHiT */
+ 
+public class SortingArrayList {
+
+    
+    public static void main(String[] args) {
+        ArrayList<String> Countries=new ArrayList<>();
+        
+        Countries.add(0, "India");
+        Countries.add(1, "China");
+        Countries.add(2, "America");
+        Countries.add(3, "Russia");
+        Countries.add(4, "Pakistan");
+        
+        // without sorting it prints as it is
+        
+        System.out.println("Countries are:"+Countries);
+    
+        Collections.sort(Countries);
+        
+        System.out.println("New List is:"+Countries);
+    }
+    
+    
+}

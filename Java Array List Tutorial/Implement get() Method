@@ -1,0 +1,34 @@
+
+package getmethodarraylist;
+
+import java.util.ArrayList;
+
+
+ /* @author RoHiT */
+ 
+public class GetMethodArrayList {
+
+   
+    public static void main(String[] args) {
+        ArrayList<String> obj=new ArrayList<>();
+        
+        obj.add("Pen");
+        obj.add("Pencil");
+        obj.add("Notebook");
+        obj.add("Bag");
+        obj.add("Chemistry");
+        obj.add("Physics");
+        obj.add("Maths");
+        
+        System.out.println("First element of the array list is :"+obj.get(0));
+        System.out.println("Second element of the array list is :"+obj.get(1));
+        System.out.println("Third element of the array list is :"+obj.get(2));
+        System.out.println("Fourth element of the array list is :"+obj.get(3));
+        System.out.println("Fifth element of the array list is :"+obj.get(4));
+        System.out.println("Sixth element of the array list is :"+obj.get(5));
+        System.out.println("Seventh element of the array list is :"+obj.get(6));
+        
+        
+    }
+    
+}

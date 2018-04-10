@@ -1,0 +1,40 @@
+
+package arraylistexamples;
+
+
+import java.util.ArrayList;
+/*
+@author RoHiT
+ */
+
+public class ArrayListExamples {
+
+    public static void main(String[] args) {
+        ArrayList<String> obj=new ArrayList<String>();
+        obj.add("Rohit");
+        obj.add("Rohit1");
+        obj.add("Rohit2");
+        obj.add("Rohit3");
+        obj.add("Rohit4");
+        // add elements without index
+        System.out.println("The elements are:"+obj);
+        
+        // add elements with index
+        
+        obj.add(0,"Ravish");
+        obj.add(1,"Ajay");
+        obj.add(2,"Ravish1");
+        obj.add(3,"Ajay1");
+        System.out.println("Elements are:"+obj);
+        // remove elements without index number
+        
+        obj.remove("Rohit1");
+        System.out.println("Elements are:"+obj);
+        // remove elements with index number
+        
+        obj.remove(2);
+        System.out.println("Elements are:"+obj);
+        
+    }
+    
+}

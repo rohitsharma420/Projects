@@ -1,0 +1,26 @@
+
+package hashset;
+
+import java.util.HashSet;
+public class hashset {
+
+
+    public static void main(String[] args) {
+        HashSet<String>set=new HashSet();
+        
+        set.add("Rohit");
+        set.add("Ravish");
+        set.add("Ajay");
+        
+        //Adding duplicates
+          set.add("Rohit");
+        set.add("Ravish");
+        set.add("Ajay");
+
+        System.out.println("Elements are:"+set);
+               
+        
+        
+    }
+    
+}

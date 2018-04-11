@@ -1,0 +1,27 @@
+
+package clearmethod;
+
+import java.util.ArrayList;
+
+
+ /* @author RoHiT
+ */
+public class ClearMethod {
+
+  
+    public static void main(String[] args) {
+      ArrayList<Integer>obj=new ArrayList<>();
+      
+      obj.add(1);
+      obj.add(2);
+      obj.add(3);
+      obj.add(4);
+      // Before clear method it will print as it is
+        System.out.println("Before Clear The Array List is:"+obj);
+        
+        //Now apply Clear Method to array list
+        obj.clear();
+        System.out.println("After Clear The Array List:"+obj);
+    }
+    
+}
